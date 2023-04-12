@@ -7,7 +7,7 @@ n = int(input('Введите сторону n: '))
 m = int(input('Введите сторону m: '))
 k = int(input('Введите количество долек k: '))
 
-if k % n == 0 or k % m == 0:
+if k < n * m and (k % n == 0 or k % m == 0):
     print('yes')
 else:
     print('no')

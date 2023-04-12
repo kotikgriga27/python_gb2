@@ -3,8 +3,9 @@
 # 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0) 
 
-number = int(input('Введите трёхзначное число: '))
-l = len(str(number))
+number = input('Введите трёхзначное число: ')
+l = len(number)
+number = int(number)
 
 if l == 3:
     digit1 = number // 100
